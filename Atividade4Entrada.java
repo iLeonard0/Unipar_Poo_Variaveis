@@ -1,4 +1,4 @@
-// Atividade 4
+// Atividade 4.
 // Faca um sistema que peca 4 notas divida por 4;
 
 import java.util.Scanner;
