@@ -29,5 +29,13 @@ class HelloWorld {
         
         System.out.println("Sua nota final (media) sera: " + somaNotas);
         
+        if (somaNotas >= 6 && somaNotas <= 10) {
+            System.out.println("Parabens! Voce foi aprovado!");
+        } else if (somaNotas >= 0 && somaNotas < 6) {
+            System.out.println("Voce foi reprovado. Estude mais!");
+        } else {
+            System.out.println("Nota invalida. Por favor, verifique suas notas e tente novamente.");
+        }
     }
 }
+  
